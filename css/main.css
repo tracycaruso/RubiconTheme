@@ -1,0 +1,133 @@
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700);
+@font-face {
+  font-family: 'Engravers MT Regular';
+  src: url("../fonts/engraversmtregular-webfont.eot");
+  src: url("../fonts/engraversmtregular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/engraversmtregular-webfont.woff") format("woff"), url("../fonts/engraversmtregular-webfont.ttf") format("truetype"), url("../fonts/engraversmtregular-webfont.svg#engraversmtregular-webfont") format("svg"); }
+@font-face {
+  font-family: 'Heroic Condensed';
+  src: url("../fonts/heroiccondensed-regular-webfont.eot");
+  src: url("../fonts/heroiccondensed-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/heroiccondensed-regular-webfont.woff") format("woff"), url("../fonts/heroiccondensed-regular-webfont.ttf") format("truetype"), url("../fonts/heroiccondensed-regular-webfont.svg#heroiccondensed-webfont") format("svg"); }
+@font-face {
+  font-family: 'Sorte Faxs';
+  src: url("../fonts/sortefaxs02_0261-webfont.eot");
+  src: url("../fonts/sortefaxs02_0261-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/sortefaxs02_0261-webfont.woff") format("woff"), url("../fonts/sortefaxs02_0261-webfont.ttf") format("truetype"), url("../fonts/sortefaxs02_0261-webfont.svg#heroiccondensed-webfont") format("svg"); }
+nav.top span, h1, h2, h3, h4, h5, .contactForm h1 span {
+  text-transform: uppercase; }
+
+
+
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -mox-box-sizing: border-box; 
+}
+  
+
+html, body{
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', serif;
+  line-height: 1.3;
+}
+
+body{
+  text-align: center;
+}
+h1, h2, h3 {letter-spacing: 1}
+
+h1 {font: 1.25rem "Engravers MT Regular","Times New Roman",serif;}
+h2 {font: 1.875rem "Sorte Faxs","Times New Roman",serif;}
+h3 {font: 1.0625rem "Libre Baskerville","Times New Roman",serif; text-transform: capitalize;}
+
+/* Header */
+
+  header{
+    background-color: #f4eede;
+    border-bottom: 8px solid #bfa63c;
+    border-top: 8px solid #3a3823;
+    max-height:100px;
+  }
+
+  header .row, header .column{
+    max-height:92px;
+  }
+  /* Custom Menu Grid */
+
+  nav.top{
+    width:100%;
+    margin: 0 auto;
+  }
+
+  nav.top ul{
+    list-style:none;
+    margin:0;
+    padding: 12px 0;
+  }
+
+  nav.top ul li{
+    display: inline-block;
+    float: left;
+    border-right:1px solid;
+    padding: 4px 18px 0;
+  }
+
+  nav.top ul li img{
+    min-height: 50px;
+    max-height:50px;
+    width:100%;
+    margin:0 auto;
+  }
+
+  nav.top ul li:nth-child(4) img{
+    min-height: none;
+    max-height: 170px;
+    margin-top: -30px;
+
+    
+  }
+
+  nav.top ul li:nth-child(1){
+    width:08.191906100735%;
+  }
+  nav.top ul li:nth-child(2){
+    width:20.357274998171%;
+
+  }
+  nav.top ul li:nth-child(3){
+    width:12.019607638199%;
+
+  }
+  nav.top ul li:nth-child(4){
+    width:18.243674028241%;
+    border-right:none;
+
+  }
+  nav.top ul li:nth-child(5){
+    width:15.37255577621%;
+    border-left: 1px solid;
+
+  }
+  nav.top ul li:nth-child(6){
+    width:15.446763589996%;
+
+  }
+  nav.top ul li:nth-child(7){
+    width:10.368218067038%;
+    border-right:none;
+
+  }
+
+  figure, img{
+    width:100%;
+    margin:0;
+  }
+
+
+
+  /* Philosophy */
+
+  .philosophy .message{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+
+  }

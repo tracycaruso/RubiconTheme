@@ -1,0 +1,406 @@
+/* 
+Theme Name: Rubicon
+Author: Design by Megan Davis, Built by Tracy Caruso
+Author URI: http://www.hellomegdavis.com
+Description: Rubicon Harrisburg
+Version: 1.0;
+*/
+
+
+@font-face {
+  font-family: 'Engravers MT Regular';
+  src: url("fonts/engraversmtregular-webfont.eot");
+  src: url("fonts/engraversmtregular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/engraversmtregular-webfont.woff") format("woff"), url("fonts/engraversmtregular-webfont.ttf") format("truetype"), url("fonts/engraversmtregular-webfont.svg#engraversmtregular-webfont") format("svg"); }
+@font-face {
+  font-family: 'Heroic Condensed';
+  src: url("fonts/heroiccondensed-regular-webfont.eot");
+  src: url("fonts/heroiccondensed-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/heroiccondensed-regular-webfont.woff") format("woff"), url("fonts/heroiccondensed-regular-webfont.ttf") format("truetype"), url("fonts/heroiccondensed-regular-webfont.svg#heroiccondensed-webfont") format("svg"); }
+@font-face {
+  font-family: 'Sorte Faxs';
+  src: url("fonts/sortefaxs02_0261-webfont.eot");
+  src: url("fonts/sortefaxs02_0261-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/sortefaxs02_0261-webfont.woff") format("woff"), url("fonts/sortefaxs02_0261-webfont.ttf") format("truetype"), url("fonts/sortefaxs02_0261-webfont.svg#sortefaxs02_0261-webfont") format("svg"); }
+
+@font-face {
+  font-family: 'Libre Baskerville Regular';
+  src: url("fonts/librebaskerville-regular-webfont.eot");
+  src: url("fonts/librebaskerville-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/librebaskerville-regular-webfont.woff") format("woff"), url("fonts/librebaskerville-regular-webfont.ttf") format("truetype"), url("fonts/librebaskerville-regular-webfont.svg#librebaskerville-regular-webfont") format("svg"); }
+
+
+@font-face {
+  font-family: 'Libre Baskerville Italic';
+  src: url("fonts/librebaskerville-italic-webfont.eot");
+  src: url("fonts/librebaskerville-italic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/librebaskerville-italic-webfont.woff") format("woff"), url("fonts/librebaskerville-italic-webfont.ttf") format("truetype"), url("fonts/librebaskerville-italic-webfont.svg#librebaskerville-italic-webfont") format("svg"); }
+
+
+
+nav.top span, h1, h2, h3, h4, h5, .contactForm h1 span {
+  text-transform: uppercase; }
+
+
+.container.nav.scroll{
+  display: none;
+}
+
+
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -mox-box-sizing: border-box; 
+}
+  
+
+html, body{
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', serif;
+  line-height: 1.3;
+}
+
+body{
+  text-align: center;
+}
+
+.container{
+  padding:50px 0px;
+}
+
+.container.nav{
+  padding:0px;
+  z-index: 9999;
+}
+
+
+
+h1, h2 {letter-spacing: 0.0625em;}
+
+
+h1 {font: 1.25rem "Engravers MT Regular","Times New Roman",serif; margin-bottom: 1rem!important; max-width:400px; margin:0 auto;}
+
+h2 {font: 1.875rem "Sorte Faxs","Times New Roman",serif; margin-bottom: 25px}
+
+h2:before {
+    border-top: 1px solid #b79d36;
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: 22px;
+    width: 100%;
+
+}
+
+h2 span {
+    margin: 0 auto;
+    opacity: 1 !important;
+    padding: 5px;
+    position: relative;
+    top: 0;
+}
+
+.drink h2 span{
+  background: url("images/bg-white.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+
+h3 {font: 1.0625rem "Libre Baskerville Regular","Times New Roman",serif; text-transform: capitalize; margin-bottom: 0; letter-spacing:.025em;}
+p.description, span.price {font: 0.875rem/1.4  "Libre Baskerville Italic","Times New Roman",serif; text-transform: capitalize; margin: 3px 0;}
+span.price{ display:block; font:  0.875rem "Times New Roman",serif; margin-bottom: 20px;}
+
+
+h4{font: 1.5625rem "Heroic Condensed", Helvetica, sans-serif; margin-top: -20px;}
+h4 span { border-top: 2px dotted; display: inline-block; padding-top: 5px; width: 90px;}
+
+p{
+  margin-bottom: 1.5rem;
+}
+
+a{
+  color: #937f2e;
+  text-decoration: none;
+}
+
+/* Background Styles */
+
+.eat, h2 span, .contact {
+  background: url("images/bg-gold.png") repeat fixed 0 0 rgba(0, 0, 0, 0);
+}
+
+.philosophy, .drink, .drink h2 span {
+  background: url("images/bg-white.png") repeat fixed 0 0 rgba(0, 0, 0, 0);
+}
+
+
+
+/* Header */
+
+  header{
+    background-color: #f4eede;
+    border-bottom: 8px solid #bfa63c;
+    border-top: 8px solid #3a3823;
+    max-height:100px;
+  }
+
+  header .row, header .column{
+    max-height:92px;
+  }
+  /* Custom Menu Grid */
+
+  nav.top{
+    width:100%;
+    margin: 0 auto;
+  }
+
+  nav.top ul{
+    list-style:none;
+    margin:0;
+    padding: 12px 0;
+  }
+
+  nav.top ul li{
+    display: inline-block;
+    float: left;
+    border-right:1px solid;
+    padding: 4px 18px 0;
+  }
+
+  nav.top ul li img{
+    min-height: 50px;
+    max-height:50px;
+    width:100%;
+    margin:0 auto;
+  }
+
+  nav.top ul li:nth-child(4) img{
+    min-height: none;
+    max-height: 170px;
+    margin-top: -30px;
+
+    
+  }
+
+  nav.top ul li:nth-child(1){
+    width:08.191906100735%;
+  }
+  nav.top ul li:nth-child(2){
+    width:20.357274998171%;
+
+  }
+  nav.top ul li:nth-child(3){
+    width:12.019607638199%;
+
+  }
+  nav.top ul li:nth-child(4){
+    width:18.243674028241%;
+    border-right:none;
+
+  }
+  nav.top ul li:nth-child(5){
+    width:15.37255577621%;
+    border-left: 1px solid;
+
+  }
+  nav.top ul li:nth-child(6){
+    width:15.446763589996%;
+
+  }
+  nav.top ul li:nth-child(7){
+    width:10.368218067038%;
+    border-right:none;
+
+  }
+
+  nav.top ul li img.eat-nav,
+  nav.top ul li img.drink-nav{
+    min-height: 25px;
+    max-height: 25px;
+
+  }
+
+
+
+  figure, img{
+    width:100%;
+    margin:0;
+    display: block;
+  }
+
+
+/* Nav Display on Scroll */
+
+.nav.scroll{
+  background-color: black;
+}
+
+.on-scroll ul li{
+    display: inline-block;
+    float: left;
+    margin: 0 5%;
+}
+
+
+
+/* Footer */
+
+.contact p, .contact a, .contact a:visited{
+  font: 1.5625rem "Heroic Condensed", Helvetica, sans-serif;
+  letter-spacing: 1.5px;
+  margin-top: 10px;
+  color: #000;
+  text-decoration: none;
+}
+
+.copyright, .copyright a{
+  background-color: #2b2919;
+  font:.85rem  "Heroic Condensed", Helvetica, sans-serif;
+  color:#7f7a52;
+}
+
+.copyright a:hover{
+  color:#fff;
+}
+
+.copyright{
+  padding: 15px;
+}
+
+p.copyright {
+  margin-bottom: 0rem;
+}
+
+
+/* Philosophy */
+
+.philosophy .message{
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+
+
+
+.parties{
+  background-image: url('images/private-parties.jpg');
+  padding-top: 75px;
+}
+
+.private-parties{
+  max-width:600px;
+  background-color: rgba(255, 255, 255, 0.85);
+  margin:0 auto;
+  padding: 40px;
+  
+}
+
+.private-parties h1{
+  max-width: 200px;
+}
+
+
+
+/* Navigation */
+
+    header { display: none; }
+
+
+
+    .nav.header{
+      height:50px;
+      background-color: #fcf8e9;
+      z-index: 9999999;
+      display:inline-block;
+      margin-bottom: -10px;
+      border-bottom: 5px solid #bfa63c;
+      border-top: 5px solid #3a3823;
+      -webkit-box-shadow: 1px 5px 5px 0px rgba(50, 50, 50, 0.25);
+      -moz-box-shadow:    1px 5px 5px 0px rgba(50, 50, 50, 0.25);
+      box-shadow:         1px 5px 5px 0px rgba(50, 50, 50, 0.25);
+    }
+
+    .nav-logo{
+      margin-top: -7px;
+      display: inline-block;
+      
+    }
+
+     .nav-logo img{
+      width:100px;
+      margin: 0 auto;
+      padding-left: 5px;
+
+     }
+
+     .anchor-link{
+      position: absolute;
+      top:10px;
+      right:10px;
+      width:25px;
+     }
+
+     .nav.bottom{
+      background-color: #3a3823;
+      padding:5px 0px;
+     }
+
+     .nav.bottom .row{
+      width:100%;
+     }
+
+    .mobile-nav { display: block; }
+    .mobile-nav ul { list-style: none; margin:0; padding: 0px; }
+    .mobile-nav ul li { list-style: none; text-align: center; margin:0; }
+    .mobile-nav ul li a { display: block; padding: 10px 10px; text-decoration: none; color:#fff; font: .70rem "Engravers MT Regular","Times New Roman",serif;}
+    .mobile-nav ul li a:hover { background-color: #2b2919; }
+
+
+
+
+    @media all and (min-width:48em){  
+      header { display: block; }
+      .nav.header { display: none; }
+      .mobile-nav { display: none; }
+    }
+
+
+
+
+
+
+/* Responsive Behavior*/
+@media (min-width: 665px) {
+  .mobile-slider,  .mobile-map {
+    display: none;
+  }
+
+
+
+
+}
+
+@media (max-width: 1020px) {
+  .container.top .row{
+    width:100%;
+  }
+  nav.top ul li {
+    padding: 4px 8px 0;
+  }
+
+}
+@media (max-width: 665px) {
+   .tp-rightarrow.tparrows, .tp-leftarrow.tparrows{
+    display: none!important;  
+  }
+
+  .container {
+    padding: 20px 0;
+  }
+
+
+  .contact p, .contact a{
+    font-size: 1.1625rem; 
+  }
+
+  .map{
+    display:none;
+  }
+
+
+}
